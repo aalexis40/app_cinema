@@ -36,7 +36,7 @@
 1. Cloner le repository  
 
 ```bash
-git clone https://github.com/votre-utilisateur/movie-manager-app.git
+git clone https://github.com/aalexis40/app_cinema.git
 cd movie-manager-app
 ```
 2. Installer les dépendances
