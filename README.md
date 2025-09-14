@@ -40,12 +40,13 @@ git clone https://github.com/votre-utilisateur/movie-manager-app.git
 cd movie-manager-app
 ```
 2. Installer les dépendances
-
+```bash
 npm install
 # ou
 yarn install
-
+```
 
 3. Lancer l’application avec Expo
-
+```bash
 npx expo start
+```
