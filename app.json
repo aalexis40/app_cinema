@@ -3,7 +3,7 @@
     "name": "FilmsPapa",
     "slug": "FilmsPapa",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
@@ -13,17 +13,32 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.FilmCollection",  
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.anonymous.FilmCollection",  
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ad5dc7b9-a2ff-4b18-bdff-ccfd1fc01c2f"  
+      }
+    },
+    "owner": "adidi40", 
+    "updates": {
+      "url": "https://u.expo.dev/ad5dc7b9-a2ff-4b18-bdff-ccfd1fc01c2f"  
+    },
+    "sdkVersion": "53.0.0" 
   }
 }
